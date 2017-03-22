@@ -19,11 +19,15 @@ search: true
 
 # Introduction
 
-Welcome to the Kittn API! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
+Welcome to the Zelos Docs! You can use our API to access Kittn API endpoints, which can get information on various cats, kittens, and breeds in our database.
 
 We have language bindings in Shell, Ruby, and Python! You can view code examples in the dark area to the right, and you can switch the programming language of the examples with the tabs in the top right.
 
 This example API documentation page was created with [Slate](https://github.com/tripit/slate). Feel free to edit it and use it as a base for your own API's documentation.
+
+## Each Scrapy item is one of 2 kinds...
+   1) An entity (6 total)
+   2) A relationship between two entities (14 total)
 
 # Authentication
 
@@ -70,10 +74,6 @@ Python 3.5
 Mongodb
 
 # Naming Conventions
-## Each Scrapy item is one of 2 kinds...
-   1) An entity (6 total)
-   2) A relationship between two entities (14 total)
-
 ## Entities
  * labeled as: `ent_<entity_type>`
  * Each entity item is 1 of 6 kinds
@@ -99,6 +99,8 @@ Level | Full Name | Abbreviation
 * Each relationship item has:
   * Four id fields ( one for each entity in relationship )
   * information regarding that unique relationship
+
+## Parameters
 
 # Items
 ## 1.0 - ent_pfrm_Item
